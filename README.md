@@ -1,6 +1,6 @@
 # Development and Analysis of a Keylogger using Python
 <p align="center">
-  <img src="assets/NIELIT_logo.jpg" alt="NIELIT Logo" width="200"/>
+  <img src=".github/NIELIT_logo.jpg" alt="NIELIT Logo" width="200"/>
 </p>
 ## Executive Summary
 A Python-based keylogger was developed and analyzed to understand its functionality, potential misuse, and defense strategies in cybersecurity. 
