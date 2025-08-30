@@ -1,5 +1,5 @@
 # Development and Analysis of a Keylogger using Python
-NIELIT_logo.jpg
+![NIELIT Logo](assets/NIELIT_logo.jpg)
 ## Executive Summary
 A Python-based keylogger was developed and analyzed to understand its functionality, potential misuse, and defense strategies in cybersecurity. 
 The project highlights both the technical aspects of creating such tools and the ethical implications of their usage. 
