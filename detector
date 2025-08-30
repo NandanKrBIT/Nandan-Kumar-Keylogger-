@@ -1,0 +1,18 @@
+import psutil
+
+# Detect if 'python' process is running keylogger
+def detect_keylogger():
+    suspicious = []
+    for proc in psutil.process_iter(['pid', 'name', 'cmdline']):
+        try:
+            if "python" in proc.info['name'].lower() and "keylogger" in " ".join(proc.info['cmdline']).lower():
+                suspicious.append(proc.info)
+        except Exception:
+            pass
+    if suspicious:
+        print("⚠️ Potential Keylogger Detected:", suspicious)
+    else:
+        print("✅ No keylogger detected.")
+
+if __name__ == "__main__":
+    detect_keylogger()
